@@ -4,7 +4,7 @@ const minsEl = document.getElementById('mins');
 const secondsEl = document.getElementById('seconds');
 
 
-const birthday = '2022-03-25T00:00';
+const birthday = '2022-03-25T00:00+03:00';
 
 function countdown(){
     const birthdayDate = new Date(birthday);
